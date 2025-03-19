@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spend 100 Crore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Spend ₹100 Crore</h1>
+        <h2>Balance: ₹<span id="balance">1000000000</span></h2>
+        <div class="ved"><a href="https://nocodevdant.github.io/VdanTdahake/">ABOUT DEVELOPER </a> </div>
+        
+        <!-- Cars -->
+        <div class="category">
+            <h3>Cars</h3>
+            <div class="item">
+                <img src="thar.jpg" alt="Thar Roxx">
+                <button onclick="buyItem(2000000, 'Thar Roxx', this)">Thar Roxx - ₹20L</button>
+            </div>
+            <div class="item">
+                <img src="scorpio n.jpg" alt="Scorpio N">
+                <button onclick="buyItem(2500000, 'Scorpio N', this)">Scorpio N - ₹25L</button>
+            </div>
+            <div class="item">
+                <img src="fortuner.jpg" alt="Fortuner Legender">
+                <button onclick="buyItem(5000000, 'Fortuner Legender', this)">Fortuner Legender - ₹50L</button>
+            </div>
+            <div class="item">
+                <img src="land.jpg" alt="Land Cruiser">
+                <button onclick="buyItem(25000000, 'Land Cruiser', this)">Land Cruiser - ₹2.5 Cr</button>
+            </div>
+        </div>
+
+        <!-- Properties -->
+        <div class="category">
+            <h3>Properties</h3>
+            <div class="item">
+                <img src="antila.jpg" alt="Antilia">
+                <button onclick="buyItem(15000000000, 'Antilia', this)">Antilia - ₹1500 Cr</button>
+            </div>
+            <div class="item">
+                <img src="pm.jpg" alt="PM House">
+                <button onclick="buyItem(2000000000, 'PM House', this)">PM House - ₹200 Cr</button>
+            </div>
+            <div class="item">
+                <img src="mannat.jpg" alt="Mannat">
+                <button onclick="buyItem(200000000, 'Mannat', this)">Mannat - ₹200 Cr</button>
+            </div>
+            <div class="item">
+                <img src="president.jpg" alt="Mannat">
+                <button onclick="buyItem(200000000, 'Mannat', this)">Mannat - ₹200 Cr</button>
+            </div>
+        </div>
+
+        <!-- Electronics -->
+        <div class="category">
+            <h3>Electronics</h3>
+            <div class="item">
+                <img src="ps.jpg" alt="PS5">
+                <button onclick="buyItem(50000, 'PS5', this)">PS5 - ₹50K</button>
+            </div>
+            <div class="item">
+                <img src="nintendo.jpg" alt="Nintendo">
+                <button onclick="buyItem(30000, 'Nintendo', this)">Nintendo - ₹30K</button>
+            </div>
+            <div class="item">
+                <img src="iphone.jpg" alt="iPhone 16 Pro Max">
+                <button onclick="buyItem(180000, 'iPhone 16 Pro Max', this)">iPhone 16 Pro Max - ₹1.8L</button>
+            </div>
+            <div class="item">
+                <img src="s35.jpg" alt="iPhone 16 Pro Max">
+                <button onclick="buyItem(150000, 's25 ultra', this)">samsung s25 ultra - ₹1.5L</button>
+            </div>
+            div class="item">
+                <img src="google.jpg" alt="iPhone 16 Pro Max">
+                <button onclick="buyItem(150000, 'google pixel', this)">google pixel - ₹1.5L</button>
+            </div>
+        </div>
+
+        <!-- Subscriptions -->
+        <div class="category">
+            <h3>Subscriptions</h3>
+            <div class="item">
+                <img src="yt.png" alt="YouTube Premium">
+                <button onclick="buyItem(129, 'YouTube Premium', this)">YouTube Premium - ₹129</button>
+            </div>
+            <div class="item">
+                <img src="spotify.png" alt="Spotify Premium">
+                <button onclick="buyItem(199, 'Spotify Premium', this)">Spotify Premium - ₹199</button>
+            </div>
+            <div class="item">
+                <img src="corn.png" alt="1 Diamond">
+                <button onclick="buyItem(100000, '1 cornhub', this)">1 cornhub- ₹1 L</button>
+            </div>
+        </div>
+
+        <!-- Luxury Items -->
+        <div class="category">
+            <h3>Luxury Items</h3>
+            <div class="item">
+                <img src="gold.jpg" alt="1 KG Gold">
+                <button onclick="buyItem(7000000, '1 KG Gold', this)">1 KG Gold - ₹70L</button>
+            </div>
+            <div class="item">
+                <img src="dia.jpg" alt="1 Diamond">
+                <button onclick="buyItem(100000000, '1 Diamond', this)">1 Diamond - ₹10 Cr</button>
+            </div>
+            <div class="item">
+                <img src="silver.jpg" alt="1 Diamond">
+                <button onclick="buyItem(100000, '1 kg silver', this)">1 Diamond - ₹1 L</button>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3>extra products</h3>
+            <div class="item">
+                <img src="rus.jpg" alt="1 KG Gold">
+                <button onclick="buyItem(700000, '1 russian-', this)">russian- ₹70k</button>
+            </div>
+            <div class="item">
+                <img src="movie.jpg" alt="1 Diamond">
+                <button onclick="buyItem(500000000, '1 created movie', this)">1 create movie - ₹50 Cr</button>
+            </div>
+            <div class="item">
+                <img src="pak.png" alt="1 KG Gold">
+                <button onclick="buyItem(500000000, '1 balochistan', this)">buy balochistan - ₹50 cr</button>
+            </div>
+            <div class="item">
+                <img src="party.jpg" alt="1 Diamond">
+                <button onclick="buyItem(100000000, '1 created political party', this)">create political party- ₹10 Cr</button>
+            </div>
+            <div class="item">
+                <img src="coldplay.jpg" alt="1 KG Gold">
+                <button onclick="buyItem(700000, '1 cold play tickets', this)">buy cold play ticket - ₹7L</button>
+            </div>
+            <div class="item">
+                <img src="jordan.jpg" alt="1 Diamond">
+                <button onclick="buyItem(100000, '1 jordans', this)">1 jordans - ₹1 L</button>
+            </div>
+            <div class="item">
+                <img src="bit.jpg" alt="1 Diamond">
+                <button onclick="buyItem(8000000, '1 bitcoin', this)">1 bitcoin - ₹80 L</button>
+            </div>
+        </div>
+
+        <button id="reset" onclick="resetBalance()">Reset</button>
+
+        <h2>Assets Owned</h2>
+        <ul id="assets"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
