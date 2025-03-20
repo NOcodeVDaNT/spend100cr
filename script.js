@@ -1,4 +1,4 @@
-let balance = 1000000000; // 100 Crore
+let balance = 100000000; // 100 Crore
 let assets = {}; // Object to store purchased items
 
 function buyItem(cost, itemName, element) {
